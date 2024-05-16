@@ -1,0 +1,15 @@
+.theme-toggle{
+    display: flex;
+    padding: 4px;
+    border-radius: 2rem;
+    border: 2px solid black;
+    font-size:1rem;
+    justify-content: space-between;
+	width: 90px;
+	height: 100%;
+	box-shadow: inset rgba(46, 42, 42, 0.4);
+}
+
+.mode{
+    padding: 5px;
+}

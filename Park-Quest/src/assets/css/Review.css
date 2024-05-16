@@ -1,0 +1,49 @@
+.reviews{
+    padding: 2rem;
+    color: black;
+}
+
+.review-list{
+    display: grid;
+    gap: 2rem;
+
+    list-style-type: none;
+
+    padding: 0;
+
+}
+
+.list{
+    position: relative;
+    background-color: white;
+    
+    border-radius: 3rem;
+    box-shadow: 0 3px 6px rgba(26, 26, 26, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+    padding: 2rem;
+}
+
+.review-panel{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-date-rate-container{
+    display: flex;
+    padding: 1.2rem;
+}
+
+.name{
+    font-size: x-large;
+}
+
+.rating-container{
+    margin-top: 1.8rem;
+    margin-left: 1rem;
+}
+
+.date-container{
+    position: absolute;
+    right: 2rem;
+}
+

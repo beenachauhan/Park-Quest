@@ -1,0 +1,85 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .main-section{
+      background-image: url('public/images/first.jpg') ;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  
+      position: absolute;
+      top: 0;
+  
+      width: 100%;
+  
+  }
+  
+  .section-description{
+      font-weight: 700;
+      color: black;
+  }
+  
+  .landing-section{
+      margin: 20rem auto;
+  }
+  
+  .explore-button{
+      margin: 10rem auto;
+      padding: 1rem;
+  
+      border-radius: 8px;
+      border: 1px solid transparent;
+  
+      font-size: 1.4rem;
+      font-weight: 500;
+      font-family: inherit;
+  
+      background-color: aliceblue;
+      cursor: pointer;
+  
+     
+     
+  }
+  
+  .explore-button:hover{
+      font-size: 1.8rem;
+    
+      transition: border-color 0.25s;
+   
+  
+  }
+  
+  @media(prefers-reduced-motion: no-preference) {
+     
+      .app:hover .section-description {
+          animation: changeColor 5s 10;
+      }
+      
+      @keyframes changeColor
+      {
+          0%      {color:#271492;}
+          25%     {color:#9ce36a;}
+          75%     {color:#271492;}
+          100%    {color:#9ce36a;}
+      }
+     
+  }  
+  
+  @media (min-width: 44rem) {
+      .main-section{
+          background-image: url('public/images/first.jpg') ;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+  
+          position: absolute;
+          top: 0;
+  
+          width: 100%;
+          height: 100%;
+      
+      }
+  }

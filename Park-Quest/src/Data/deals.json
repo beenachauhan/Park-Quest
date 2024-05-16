@@ -1,0 +1,51 @@
+[
+  {
+    "dealsId": 1,
+    "img":"public/images/Yellowstone.jpg",
+    "spot": "Yellowstone National Park",
+    "alt": "Yellowstone National Park",
+    "spanOfTime": "3 nights 2 days",
+    "description": "Explore the breathtaking landscapes and geothermal wonders of Yellowstone National Park. Witness the iconic Old Faithful geyser, hike through picturesque trails, and spot diverse wildlife including bison, elk, and grizzly bears."
+  },
+  {
+    "dealsId": 2,
+    "img":"public/images/acadia.jpg",
+    "spot": "Acadia National Park",
+    "alt": "Acadia National Park",
+    "spanOfTime": "3 nights 2 days",
+    "description": "Acadia National Park, nestled along Maine's rugged coast, boasts stunning coastal vistas, granite peaks, and diverse ecosystems. Spanning 49,000 acres, it offers scenic drives, hiking trails, and panoramic views from Cadillac Mountain. With lush forests, pristine lakes, and iconic landmarks, Acadia provides an unforgettable outdoor experience."
+  },
+  {
+    "dealsId": 3,
+    "img":"public/images/Grand Canyon National Park.jpg",
+    "spot": "Grand Canyon National Park",
+    "alt": "Grand Canyon National Park",
+    "spanOfTime": "3 nights 2 days",
+    "description": "Grand Canyon National Park in Arizona is a stunning natural wonder known for its immense size and breathtaking landscapes. Carved by the Colorado River, it offers unparalleled opportunities for hiking, sightseeing, and photography, showcasing the beauty and geological history of this iconic landmark."
+  },
+  {
+    "dealsId": 4,
+    "img":"public/images/greatsmokymountains.jpg",
+    "spot": "Great Smoky Mountains National Park",
+    "alt": "Great Smoky Mountains National Park",
+    "spanOfTime": "3 nights 2 days",
+    "description": "Great Smoky Mountains National Park, straddling the border of Tennessee and North Carolina, is renowned for its lush forests, mist-covered mountains, and diverse wildlife. As America's most visited national park, it offers scenic drives, hiking trails, and cascading waterfalls such as Grotto Falls and Laurel Falls. With its rich biodiversity and cultural heritage, the park provides a serene retreat for outdoor enthusiasts and nature lovers alike."
+  },
+  {
+    "dealsId": 5,
+    "img":"public/images/yosemite national park.jpg",
+    "spot": "Yosemite National Park",
+    "alt": "Yosemite National Park",
+    "spanOfTime": "3 nights 2 days",
+    "description": "Yosemite National Park, located in California's Sierra Nevada mountains, is renowned for its towering granite cliffs, iconic waterfalls, and ancient sequoia trees. Home to famous landmarks such as El Capitan, Half Dome, and Yosemite Falls, the park offers unparalleled opportunities for hiking, rock climbing, and wildlife viewing. With its breathtaking scenery and diverse ecosystems, Yosemite is a haven for outdoor enthusiasts and nature lovers seeking adventure and tranquility amidst the beauty of the wilderness."
+  },
+  {
+    "dealsId": 6,
+    "img":"public/images/Zion.jpg",
+    "spot": "Zion National Park",
+    "alt": "Zion National Park",
+    "spanOfTime": "3 nights 2 days",
+    "description": "Zion National Park, situated in southern Utah, is famed for its towering sandstone cliffs, deep canyons, and lush valleys. Home to iconic landmarks like Angels Landing and The Narrows, the park offers thrilling hiking trails and breathtaking vistas. Visitors can explore narrow slot canyons, hike to emerald pools, and marvel at the dramatic landscapes carved by the Virgin River. With its stunning beauty and adventurous spirit, Zion is a paradise for outdoor enthusiasts and nature lovers alike."
+  }
+  
+]

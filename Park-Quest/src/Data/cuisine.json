@@ -1,0 +1,26 @@
+[
+    {
+      "cuisineId": "1",
+      "name": "Old Faithful Inn Dining Room",
+      "description": "Located within Yellowstone National Park itself, this historic dining room offers a variety of hearty meals with a view of the iconic Old Faithful geyser.",
+      "image": "public/images/Oldinn.jpg"
+    },
+    {
+      "cuisineId": "2",
+      "name": "Mammoth Hot Springs Dining Room",
+      "description": "Another option within Yellowstone, this dining room serves up classic American fare with stunning views of the Mammoth Hot Springs terraces.",
+      "image": "public/images/mammoth.jpg"
+    },
+    {
+        "cuisineId": "3",
+        "name": "El Tovar Dining Room",
+        "description": "Located within the historic El Tovar Hotel on the South Rim of the Grand Canyon, this restaurant offers a fine dining experience with breathtaking views of the canyon. Serving up a menu that blends Southwestern and contemporary cuisine, it's a great choice for visitors looking for a memorable dining experience amidst the stunning natural beauty of the Grand Canyon.",
+        "image": "public/images/El Tovar Dining Room.jpg"
+      },
+      {
+        "cuisineId": "4",
+        "name": "Roosevelt Lodge Dining Room",
+        "description": "Situated near the Tower-Roosevelt area of the park, this rustic dining room offers a cozy atmosphere and hearty Western cuisine.",
+        "image": "public/images/Roosevelt Lodge Dining Room.jpg"
+      }
+  ]

@@ -1,0 +1,113 @@
+.custom-modal{
+    position: absolute;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  
+  .modal-email, .modal-name, .modal-travelers, .modal-travelDate, .modal-accommodation {
+    margin-top: 0.5rem;
+  }
+  
+  .inputname, .inputemail, .inputtravelers, .inputaccommodation, .inputtravelDate {
+    margin-top: 0.6rem;
+    height: 2.2rem;
+    text-align: center;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 0.3rem;
+
+  }
+  .cost {
+    margin-top: 0.6rem;
+    justify-content: space-between;
+    display: flex;
+    
+  }
+  
+  .solid {
+    width: 100%;
+  }
+  
+  .total-cost {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .reservation-card {
+    display: flex;
+    flex-direction: column;
+  
+    margin-top: 0.8rem;
+    
+    border-radius: 10px;
+    padding: 1rem;
+    width: -webkit-fill-available;
+  
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(161, 159, 159, 0.19), 0 7px 7px rgba(0, 0, 0, 0.23);
+  
+  }
+  
+  .reservation-card > span > strong {
+    font-size: 2.2rem;
+  }
+  .open-modal{
+    border: 1px solid black;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+  
+    margin-top: 0.5rem;
+  }
+  
+  .confirm {
+    position: relative;  
+    height: auto;
+    padding: 6px 20px;
+    align-items: center;
+    border-radius: 100px;
+    border-radius: 100px;
+    border-width: 0;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1.4;
+    background-color: #13653c;
+    background-size: calc(100% + 20px) calc(100% + 20px);
+     
+    
+  }
+  
+  .cancel {
+    position: relative;
+    border-radius: 100px;
+    border-radius: 100px;
+    border-width: 0;  
+    height: auto;
+    padding: 6.2px 21px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1.4;
+    background-color: rgb(101, 19, 92);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+  
+  }
+  
+  
+  
+  
+  

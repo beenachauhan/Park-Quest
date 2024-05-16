@@ -1,0 +1,219 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    padding: 1rem;
+    padding-left: 0.1rem;
+    justify-content: space-between;
+    background-color: var(--headerFooter-bg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+   
+  }
+  
+  .logo {
+    height: 6rem;
+    width: 6rem;
+    cursor: pointer;
+    border-radius: 5rem;
+  }
+  .image-title-container{
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-title {
+    align-items: center;
+    color: var(--headerFooter-font-color);
+  }
+  
+  .header-navigation {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    padding-top: 1rem;
+  
+    padding-right: 0;
+    margin-right: 0;
+  }
+  
+  .header-list {
+    display: flex;
+    flex-direction: row;
+  
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+  
+  }
+  
+  .header-link {
+    font-size: 1.2rem;
+    color: var(--headerFooter-font-color);
+  
+    text-decoration: none;
+  }
+  
+  .header-item {
+    display: flex;
+    flex-direction: row;
+    
+    color: var(--headerFooter-font-color);
+    font-size: 20px;
+    font-weight: 500;
+  
+    transition: 0.5s;
+  
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  
+    padding: 0;
+  
+    align-items: center;
+  }
+  
+  .theme-switcher {
+    grid-area: theme-switcher;
+  }
+  
+  .Nav-hidden {
+    display: flex;
+    flex-direction: row;
+  
+  }
+  
+  .hamburger-button {
+    display: none;
+  }
+  
+  @media (max-width: 46rem) {
+    .header {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .logo {
+      border-radius: 5rem;
+  
+      height: 100%;
+      width: 20%;
+    }
+  
+    .header-list {
+      display: none;
+    }
+  
+    .header-navigation {
+      /* padding: 2rem; */
+      display: flex;
+  
+      justify-content: end;
+  
+      background-color: inherit;
+    }
+  
+    .header-title {
+      align-items: center;
+      padding: 0.5rem;
+    }
+  
+    .header-item {
+      margin: 0.2rem;
+      padding: 1rem;
+  
+    }
+  
+    .hamburger{
+      background-color: inherit;
+    }
+  
+    .hamburger-button{
+      display: block;
+      background-color: inherit;
+  
+    }
+  
+    /* "below CSS adapted from https://css.gg under the MIT License" */
+    .gg-menu {
+      transform: scale(var(--ggs, 1))
+    }
+  
+    
+  
+    .gg-menu::after,
+    .gg-menu::before {
+      content: "";
+      position: absolute;
+      top: -6px
+    }
+  
+    .gg-menu::after {
+      top: 6px
+    }
+
+    
+  
+    .header-navigation button {
+      left: 40px;
+      top: 40px;
+      z-index: 10;
+      cursor: pointer;
+    }
+  
+    .header-list {
+      list-style: none;
+  
+      position: absolute;
+      top: 12%;
+      right: 0;
+      bottom: 0;
+  
+      height: fit-content;
+      width: 20 px;
+      overflow: hidden;
+      max-width: 290px;
+      z-index: 9;
+  
+      display: inline;
+      background-color: inherit;
+  
+      margin-top: 60px;
+      margin-left: 0;
+  
+    }
+  
+    .Nav-hidden {
+      display: none;
+    }
+  
+  }
+  
+  
+  @media (max-width: 35rem) {
+  
+    .header-list {
+      list-style: none;
+      position: absolute;
+      top: 10%;
+      right: 0;
+      bottom: 0;
+      display: inline;
+      margin-top: 60px;
+      margin-left: 0;
+      background-color: inherit;
+      height: fit-content;
+      width: 20 px;
+      overflow: hidden;
+      max-width: 290px;
+      z-index: 9;
+  
+      
+  
+      
+  
+    }
+  
+  }
